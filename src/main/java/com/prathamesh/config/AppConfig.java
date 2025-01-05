@@ -37,7 +37,7 @@ public class AppConfig {
 				
 				cfg.setAllowedOrigins(Arrays.asList(
 						"http://localhost:5173",
-						"https://prathameshchaskar-ecommerce-website.vercel.app/"
+						"https://prathameshchaskar-ecommerce-website.vercel.app"
 						));
 				
 				cfg.setAllowedMethods(Collections.singletonList("*")); //all methods from frontend get post,etc
