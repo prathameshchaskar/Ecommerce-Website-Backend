@@ -84,7 +84,7 @@ public class PaymentController {
 		      paymentLinkRequest.put("reminder_enable",true);
 
 		      // Set the callback URL and method
-		      paymentLinkRequest.put("callback_url","https://prathameshchaskar-ecommerce-website.vercel.app/payments/"+orderId);
+		      paymentLinkRequest.put("callback_url","https://prathameshchaskar-ecommerce-website.vercel.app/payment-success?order_id="+orderId);
 		      paymentLinkRequest.put("callback_method","get");
 
 		      // Create the payment link using the paymentLink.create() method
