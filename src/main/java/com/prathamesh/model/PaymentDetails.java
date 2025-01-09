@@ -15,9 +15,6 @@ public class PaymentDetails {
 	}
 	
 	
-	
-	
-	
 	public String getPaymentMethod() {
 		return paymentMethod;
 	}
